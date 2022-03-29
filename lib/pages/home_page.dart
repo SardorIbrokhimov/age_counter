@@ -37,8 +37,8 @@ class _HomePageState extends State<HomePage> {
         });
   }
 
-  String age = '';
-  String temp = "";
+  String age = '0';
+  String temp = "0";
 
   String time = "";
 
@@ -67,7 +67,7 @@ class _HomePageState extends State<HomePage> {
           children: [
             Container(
               padding: EdgeInsets.only(left: 20),
-              height: 25,
+              height: 28,
               child: Text(
                 "Birth Year",
                 style: TextStyle(fontSize: 20),
@@ -84,7 +84,7 @@ class _HomePageState extends State<HomePage> {
             ),
             Container(
               padding: EdgeInsets.only(left: 20),
-              height: 25,
+              height: 28,
               child: Text(
                 "Your age is:",
                 style: TextStyle(fontSize: 20),
@@ -99,7 +99,7 @@ class _HomePageState extends State<HomePage> {
                   style: TextStyle(fontSize: 25),
                 )),
             Container(
-              height: 50,
+              height: 20,
             ),
             Expanded(
               child: Container(
